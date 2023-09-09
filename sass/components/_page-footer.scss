@@ -11,7 +11,7 @@
   align-items: baseline;
 }
 .footer__logo {
-  font-family: Raleway, sans-serif;
+  font-family: $logo-font, $secondary-font;
   color: $prime-white-color;
 
   font-size: 26px;

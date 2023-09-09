@@ -38,6 +38,10 @@ address {
   padding-bottom: 94px;
 }
 
+.no-section-pad {
+  padding-top: 0;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -51,21 +55,6 @@ address {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.current {
-  position: relative;
-  color: #2196f3;
-}
-.current::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background: #2196f3;
 }
 
 .section__title {
@@ -368,7 +357,7 @@ summary {
 .site-nav__link {
   display: block;
   padding: 32px 0;
-  color: var(--title-text-color);
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -380,6 +369,21 @@ summary {
 }
 .site-nav__link:focus, .site-nav__link:hover {
   color: #2196f3;
+}
+
+.current {
+  position: relative;
+  color: #2196f3;
+}
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: #2196f3;
 }
 
 .contacts {
@@ -399,7 +403,7 @@ summary {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: var(--text-color);
+  color: #757575;
   font-weight: 500;
   padding: 32px 0px;
   font-size: 14px;
@@ -559,7 +563,7 @@ summary {
   margin: 0;
   bottom: 0;
   left: 0;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -693,6 +697,9 @@ summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.social__list:not(:first-child) {
+  margin-left: 10px;
 }
 
 .social__link {
@@ -900,6 +907,7 @@ summary {
   padding: 6px 22px;
   border: 0;
   color: #212121;
+  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -979,7 +987,7 @@ summary {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;

@@ -5,6 +5,9 @@
 }
 .social__list {
   display: flex;
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
 }
 .social__link {
   justify-content: center;

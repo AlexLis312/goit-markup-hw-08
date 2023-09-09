@@ -1,0 +1,66 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+h1 {
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+  max-width: 650px;
+
+  color: $prime-white-color;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+address {
+  margin-top: 20px;
+}
+.page {
+  background-color: $prime-white-color;
+  color: $text-color;
+
+  font-family: $main-font, $secondary-font;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.no-section-pad {
+  padding-top: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 2px solid teal; */
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.section__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+.visually-hidden {
+  display: none;
+}
